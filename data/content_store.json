@@ -1,0 +1,68 @@
+{
+  "d098d3a4-0c43-43f9-8d7d-76a4bd853eea": {
+    "content_id": "d098d3a4-0c43-43f9-8d7d-76a4bd853eea",
+    "creator_id": "test-user-ai",
+    "text_preview": "Artificial intelligence represents a transformative paradigm shift in modern society. It is important to note that while the benefits of AI are numerous, it is equally essential to consider the ethical implications. Furthermore, stakeholder",
+    "text_hash": "fff4ce484ab66532e6b68fd5f462093d50d158016471e761d1e4a5f5d9c509c9",
+    "status": "under_review",
+    "created_at": "2026-06-29T18:34:22.931860Z",
+    "decision": {
+      "attribution": "likely_ai",
+      "confidence": 0.77,
+      "ai_likelihood": 0.77,
+      "label": "AI-use disclosure: This piece was classified as likely AI-generated with high confidence. The creator can appeal if this does not reflect their process.",
+      "signal_scores": {
+        "semantic_llm": 0.98,
+        "stylometric": 0.398,
+        "formulaic_phrases": 0.935
+      }
+    },
+    "appeals": [
+      {
+        "timestamp": "2026-06-29T18:34:22.937001Z",
+        "creator_reasoning": "I wrote this myself from class notes and want a human reviewer to check the context.",
+        "status": "under_review"
+      }
+    ]
+  },
+  "30d703c0-a1db-4d00-80e8-3f621c912065": {
+    "content_id": "30d703c0-a1db-4d00-80e8-3f621c912065",
+    "creator_id": "test-user-human",
+    "text_preview": "ok so i finally tried that new ramen place downtown and honestly? underwhelming. the broth was fine but they put WAY too much sodium in it and i was thirsty for like three hours after. my friend got the spicy version and said it was better.",
+    "text_hash": "0831a1143d08fdac20fb2478b7d80d01135824c2fbda73bc45313b97c6e7a548",
+    "status": "classified",
+    "created_at": "2026-06-29T18:34:22.934017Z",
+    "decision": {
+      "attribution": "likely_human",
+      "confidence": 0.813,
+      "ai_likelihood": 0.187,
+      "label": "Human-authorship signal: This piece was classified as likely human-written with high confidence. This is context for readers, not proof of authorship.",
+      "signal_scores": {
+        "semantic_llm": 0.105,
+        "stylometric": 0.264,
+        "formulaic_phrases": 0.28
+      }
+    },
+    "appeals": []
+  },
+  "76091cf7-0356-4741-b077-328a74dc7438": {
+    "content_id": "76091cf7-0356-4741-b077-328a74dc7438",
+    "creator_id": "test-user-borderline",
+    "text_preview": "The relationship between monetary policy and asset price inflation has been extensively studied in the literature. Central banks face a fundamental tension between their mandate for price stability and the unintended consequences of prolong",
+    "text_hash": "00d78ebfc0168a3dcbcd2a34e2fed3feb9c17dc185264e66ed8184492340ad59",
+    "status": "classified",
+    "created_at": "2026-06-29T18:34:22.935745Z",
+    "decision": {
+      "attribution": "uncertain",
+      "confidence": 0.517,
+      "ai_likelihood": 0.517,
+      "label": "Authorship unclear: The system found mixed signals and cannot confidently classify this piece. Readers should treat the attribution as unresolved.",
+      "signal_scores": {
+        "semantic_llm": 0.513,
+        "stylometric": 0.525,
+        "formulaic_phrases": 0.511
+      }
+    },
+    "appeals": []
+  }
+}

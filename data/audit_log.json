@@ -1,0 +1,147 @@
+[
+  {
+    "timestamp": "2026-06-29T18:34:22.932600Z",
+    "event_type": "classification",
+    "content_id": "d098d3a4-0c43-43f9-8d7d-76a4bd853eea",
+    "creator_id": "test-user-ai",
+    "text_hash": "fff4ce484ab66532e6b68fd5f462093d50d158016471e761d1e4a5f5d9c509c9",
+    "attribution": "likely_ai",
+    "confidence": 0.77,
+    "ai_likelihood": 0.77,
+    "signal_scores": {
+      "semantic_llm": 0.98,
+      "stylometric": 0.398,
+      "formulaic_phrases": 0.935
+    },
+    "signal_details": {
+      "semantic_llm": {
+        "ai_marker_hits": 8,
+        "human_marker_hits": 0,
+        "first_person_count": 0,
+        "contraction_count": 0
+      },
+      "stylometric": {
+        "word_count": 43,
+        "sentence_count": 3,
+        "average_sentence_length": 14.33,
+        "sentence_length_cv": 0.379,
+        "type_token_ratio": 0.884
+      },
+      "formulaic_phrases": {
+        "phrase_hits": 8,
+        "transition_hits": 1,
+        "personal_detail_hits": 0,
+        "repeated_long_words": 0
+      }
+    },
+    "signal_sources": {
+      "semantic_llm": "local_semantic_fallback",
+      "stylometric": "local",
+      "formulaic_phrases": "local"
+    },
+    "status": "classified"
+  },
+  {
+    "timestamp": "2026-06-29T18:34:22.934477Z",
+    "event_type": "classification",
+    "content_id": "30d703c0-a1db-4d00-80e8-3f621c912065",
+    "creator_id": "test-user-human",
+    "text_hash": "0831a1143d08fdac20fb2478b7d80d01135824c2fbda73bc45313b97c6e7a548",
+    "attribution": "likely_human",
+    "confidence": 0.813,
+    "ai_likelihood": 0.187,
+    "signal_scores": {
+      "semantic_llm": 0.105,
+      "stylometric": 0.264,
+      "formulaic_phrases": 0.28
+    },
+    "signal_details": {
+      "semantic_llm": {
+        "ai_marker_hits": 0,
+        "human_marker_hits": 8,
+        "first_person_count": 4,
+        "contraction_count": 1
+      },
+      "stylometric": {
+        "word_count": 55,
+        "sentence_count": 5,
+        "average_sentence_length": 11.0,
+        "sentence_length_cv": 0.611,
+        "type_token_ratio": 0.873
+      },
+      "formulaic_phrases": {
+        "phrase_hits": 0,
+        "transition_hits": 0,
+        "personal_detail_hits": 8,
+        "repeated_long_words": 0
+      }
+    },
+    "signal_sources": {
+      "semantic_llm": "local_semantic_fallback",
+      "stylometric": "local",
+      "formulaic_phrases": "local"
+    },
+    "status": "classified"
+  },
+  {
+    "timestamp": "2026-06-29T18:34:22.936137Z",
+    "event_type": "classification",
+    "content_id": "76091cf7-0356-4741-b077-328a74dc7438",
+    "creator_id": "test-user-borderline",
+    "text_hash": "00d78ebfc0168a3dcbcd2a34e2fed3feb9c17dc185264e66ed8184492340ad59",
+    "attribution": "uncertain",
+    "confidence": 0.517,
+    "ai_likelihood": 0.517,
+    "signal_scores": {
+      "semantic_llm": 0.513,
+      "stylometric": 0.525,
+      "formulaic_phrases": 0.511
+    },
+    "signal_details": {
+      "semantic_llm": {
+        "ai_marker_hits": 0,
+        "human_marker_hits": 0,
+        "first_person_count": 0,
+        "contraction_count": 0
+      },
+      "stylometric": {
+        "word_count": 43,
+        "sentence_count": 2,
+        "average_sentence_length": 21.5,
+        "sentence_length_cv": 0.256,
+        "type_token_ratio": 0.86
+      },
+      "formulaic_phrases": {
+        "phrase_hits": 0,
+        "transition_hits": 0,
+        "personal_detail_hits": 0,
+        "repeated_long_words": 2
+      }
+    },
+    "signal_sources": {
+      "semantic_llm": "local_semantic_fallback",
+      "stylometric": "local",
+      "formulaic_phrases": "local"
+    },
+    "status": "classified"
+  },
+  {
+    "timestamp": "2026-06-29T18:34:22.937320Z",
+    "event_type": "appeal",
+    "content_id": "d098d3a4-0c43-43f9-8d7d-76a4bd853eea",
+    "creator_id": "test-user-ai",
+    "appeal_reasoning": "I wrote this myself from class notes and want a human reviewer to check the context.",
+    "original_decision": {
+      "attribution": "likely_ai",
+      "confidence": 0.77,
+      "ai_likelihood": 0.77,
+      "label": "AI-use disclosure: This piece was classified as likely AI-generated with high confidence. The creator can appeal if this does not reflect their process.",
+      "signal_scores": {
+        "semantic_llm": 0.98,
+        "stylometric": 0.398,
+        "formulaic_phrases": 0.935
+      }
+    },
+    "status": "under_review"
+  }
+]
