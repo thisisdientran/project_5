@@ -1,7 +1,31 @@
-.venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.pyc
-.env
-.DS_Store
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# SQLite databases
+*.db
 instance/
-.pytest_cache/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
